@@ -4,11 +4,13 @@
   - https://skillupmu.github.io/mkdocs/
   - https://github.com/skillupmu/mkdocs
 
+
 ## git
 ``` 
 git remote set-url origin https://skillupmu@github.com/skillupmu/mkdocs.git
 git clone https://github.com/skillupmu/mkdocs.git
 ```
+
 
 ## install
  - Python 3.12.0
@@ -17,7 +19,7 @@ git clone https://github.com/skillupmu/mkdocs.git
  - MkDocs 1.5.3
  - Material for MkDocs 9.4.10
  - https://github.com/apps/giscus
- - https://giscus.app/ja
+
 
 ## reference
 
@@ -33,7 +35,6 @@ git clone https://github.com/skillupmu/mkdocs.git
 
 ## overrides-main
 
-  - https://github.com/apps/giscus
   - https://giscus.app/ja
 
 ```
@@ -116,6 +117,7 @@ git clone https://github.com/skillupmu/mkdocs.git
 {% endblock %}
 ```
 
+
 ## admonition
 
 ```
@@ -139,6 +141,7 @@ theme:
 
     引用を記載
 ```
+
 
 ## color
 
@@ -167,6 +170,7 @@ black,
 white
 ```
 
+
 ## cmd
 ```
 cd riskmatome/files
@@ -175,6 +179,7 @@ mkdocs build
 mkdocs serve
 mkdocs gh-deploy
 ```
+
 
 ## directory
 ```
@@ -193,6 +198,7 @@ files/
 ├── mkdocs.yml
 └── site/
 ```
+
 
 ### md_in_html
 
