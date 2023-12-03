@@ -6,7 +6,6 @@
   - https://github.com/skillupmu/mkdocs/blob/main/mkdocs.yml
   - https://github.com/skillupmu/mkdocs/blob/main/docs/assets/extra.css
 
-
 ## git
 ``` 
 git remote set-url origin https://skillupmu@github.com/skillupmu/mkdocs.git
