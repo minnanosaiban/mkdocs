@@ -170,7 +170,7 @@ black,
 white
 ```
 
-### icom
+## icom
 
   - [Material Design](https://pictogrammers.com/library/mdi/)
   - [FontAwesome](https://fontawesome.com/search?o=r&m=free)
@@ -181,7 +181,7 @@ white
   - [Canva](https://www.canva.com/ja_jp/login/?redirect=%2Fdesign%2FDAFvAApKstw%2FRFzNffvUHeSvTd4_Bf7iBQ%2Fedit)
 
 
-### color
+## color
 
   - [カラーピッカー](https://lab.syncer.jp/Tool/Image-Color-Picker/)
   - [“いけてる配色パターン”100選！](https://www.canva.com/ja_jp/learn/100-color-combinations/)
