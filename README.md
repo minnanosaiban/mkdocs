@@ -2,7 +2,6 @@
 
 ## URL
   - https://skillupmu.github.io/mkdocs/
-  - https://github.com/skillupmu/mkdocs
 
 
 ## git
