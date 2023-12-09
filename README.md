@@ -32,10 +32,12 @@ git clone https://github.com/skillupmu/mkdocs.git
    - [yaml file](https://github.com/mebiusbox/MkDocsTest/blob/master/mkdocs.yml)
    - [css file](https://github.com/mebiusbox/MkDocsTest/blob/master/docs/css/extra.css)
  - [おもむろにメモ書き（個人サイト）](https://omomuroni.github.io/Mkdocs/00_index/)
-   - [GitHub Pages](https://omomuroni.github.io/Mkdocs/00_index/)
    - [yaml file](https://omomuroni.github.io/Mkdocs/04_material_config/#yaml)
    - [css file](https://omomuroni.github.io/Mkdocs/04_material_config/#css)
  - [コジオン: チェス（個人サイト）](https://kojion.github.io/chess/mkdocs/001/)
+   - [GitHub Source](https://github.com/kojion/chess/tree/main)
+   - [yaml file](https://github.com/kojion/chess/blob/main/mkdocs.yml)
+   - [css file](https://github.com/kojion/chess/blob/main/docs/assets/extra.css)
  - [黒鳥のメモ（個人サイト）](https://kurotorimkdocs.gitlab.io/kurotorimemo/040-Documents/MkDocs/Extension/)
 
 
