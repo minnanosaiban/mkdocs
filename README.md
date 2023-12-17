@@ -39,6 +39,7 @@ git clone https://github.com/skillupmu/mkdocs.git
    - [yaml file](https://github.com/kojion/chess/blob/main/mkdocs.yml)
    - [css file](https://github.com/kojion/chess/blob/main/docs/assets/extra.css)
  - [黒鳥のメモ（個人サイト）](https://kurotorimkdocs.gitlab.io/kurotorimemo/040-Documents/MkDocs/Extension/)
+ - [学習帳@ainoniwa.net](https://ainoniwa.net/pdoc/09_documentation/mkdocs/)
 
 
 ## overrides-main
