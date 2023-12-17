@@ -40,6 +40,7 @@ git clone https://github.com/skillupmu/mkdocs.git
    - [css file](https://github.com/kojion/chess/blob/main/docs/assets/extra.css)
  - [黒鳥のメモ（個人サイト）](https://kurotorimkdocs.gitlab.io/kurotorimemo/040-Documents/MkDocs/Extension/)
  - [学習帳@ainoniwa.net](https://ainoniwa.net/pdoc/09_documentation/mkdocs/)
+ - [MkDocs の見出しを Font Awesome で装飾](https://kurokobo.github.io/mkdocs-header-awesome/)
 
 
 ## overrides-main
