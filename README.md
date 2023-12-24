@@ -175,7 +175,7 @@ orange,
 deep orange, 
 brown, 
 grey, 
-blue grey, #546d78, (32,148,243)
+blue grey, #546d78, (84,109,120)
 black, 
 white
 ```
