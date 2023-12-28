@@ -1,5 +1,3 @@
-# 設定メモ
-
 ## URL
   - https://skillupmu.github.io/mkdocs/
 
