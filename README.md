@@ -3,11 +3,15 @@
 
 
 ## git
-``` 
-git remote set-url origin https://skillupmu@github.com/skillupmu/mkdocs.git
-git clone https://github.com/skillupmu/mkdocs.git
 ```
-
+git clone https://github.com/skillupmu/mkdocs.git
+git remote set-url origin https://skillupmu@github.com/skillupmu/mkdocs.git
+cd riskmatome/files
+mkdocs new .
+mkdocs build
+mkdocs serve
+mkdocs gh-deploy
+```
 
 ## install
  - Python 3.12.0
@@ -193,16 +197,6 @@ white
 
   - [カラーピッカー](https://lab.syncer.jp/Tool/Image-Color-Picker/)
   - [“いけてる配色パターン”100選！](https://www.canva.com/ja_jp/learn/100-color-combinations/)
-
-
-## cmd
-```
-cd riskmatome/files
-mkdocs new .
-mkdocs build
-mkdocs serve
-mkdocs gh-deploy
-```
 
 
 ## directory
