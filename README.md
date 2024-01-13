@@ -6,8 +6,9 @@
 ```
 git clone https://github.com/skillupmu/mkdocs.git
 git remote set-url origin https://skillupmu@github.com/skillupmu/mkdocs.git
-cd riskmatome/files
+cd skillupmu/test
 mkdocs new .
+cd test
 mkdocs build
 mkdocs serve
 mkdocs gh-deploy
