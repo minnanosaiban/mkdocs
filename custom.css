@@ -1,0 +1,173 @@
+/* カラー定義 */
+[data-md-color-scheme=slate][data-md-color-primary=black], [data-md-color-scheme=slate][data-md-color-primary=blue-grey], [data-md-color-scheme=slate][data-md-color-primary=grey], [data-md-color-scheme=slate][data-md-color-primary=white] {
+  --md-typeset-a-color: #007799;
+}
+[data-md-color-scheme="default"] {
+  --md-default-fg-color: rgba(26, 26, 28, 1); /* テキストカラー #1a1a1c */
+  --md-primary-fg-color: #efefef; /* ヘッダー */
+  --md-typeset-a-color: #007799; /* リンクカラー */
+  --md-accent-fg-color: #00aaff; /* リンクホバーカラー */
+  --md-footer-bg-color--dark: #efefef; /* フッター */
+  --md-footer-fg-color--light: #000000; /* フッターテキスト１ */
+  --md-footer-fg-color--lighter: #000000; /* フッターテキスト２ */
+}
+[data-md-color-scheme="slate"] {
+  --md-default-fg-color: #e0e0e0; /* テキストカラー */
+  --md-primary-fg-color: #0d0d0d; /* ヘッダー */
+  --md-default-bg-color: #161616;
+  --md-typeset-a-color: #007799; /* リンクカラー */
+  --md-accent-fg-color: #00aaff; /* リンクホバーカラー */
+  --md-footer-bg-color--dark: #0d0d0d; /* フッター */
+  --md-footer-fg-color--light: #fff; /* フッターテキスト１ */
+  --md-footer-fg-color--lighter: #fff; /* フッターテキスト２ */
+}
+/* フォント */
+:root {
+  --md-text-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                         "Helvetica Neue", Arial, sans-serif,
+                         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+/* センタリング */
+h1 {
+  font-size: 2.4rem !important;
+  line-height: 1.4 !important;
+  margin-bottom: 6rem !important;
+  text-align: center;
+  color: var(--md-default-fg-color--light);
+}
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 1.8rem !important;
+    line-height: 1.4 !important;
+    margin-bottom: 4rem !important;
+    text-align: left;
+  }
+}
+h2 {
+  font-size: 2.4rem !important;
+  line-height: 1.4 !important;
+  margin-top: 6rem !important;
+  text-align: center;
+  color: var(--md-default-fg-color--light);
+}
+@media only screen and (max-width: 767px) {
+  h2 {
+    font-size: 1.8rem !important;
+    line-height: 1.4 !important;
+    margin-top: 4rem !important;
+    text-align: left;
+  }
+}
+.center {
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .center {
+    text-align: left;
+  }
+}
+.center-h {
+  margin-right: 17rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(100% - 17rem);
+}
+@media only screen and (max-width: 767px) {
+  .center-h {
+    margin-right: 0;
+    width: 100%;
+  }
+}
+/* 画面調整 */
+.md-content { 
+  flex-grow: 1;
+  min-width: 0;
+  margin-bottom: 4rem; /* ボトム調整 */
+}
+.md-content__inner {  /* 画面余白調整 */
+  margin: 0 .4rem 0;
+  padding-top: 0;
+}
+.md-sidebar {
+  width: 17rem; /* サイドバーの幅調整 */
+}
+.md-nav__list {  /* サイドバーのテキストが降り曲がらないようにする */
+  width: 16.4rem;
+}
+.md-sidebar__inner { /* サイドバーの横スクロールを隠す */
+  overflow: hidden !important;
+}
+.md-sidebar__scrollwrap {
+  scrollbar-color: var(--md-primary-fg-color) #0000;
+  scrollbar-width: 1px !important;
+}
+@media only screen and (max-width: 767px) {
+  .md-sidebar {
+    width: 12.1rem;
+  }
+}
+/* 注釈ディレクティブ */
+.margin-note {
+  float: right;
+  width: 17rem;
+  font-size: 0.85em;
+  padding-left: 9rem;
+}
+@media only screen and (max-width: 767px) {
+  .margin-note {
+    float: none;
+    width: 100%;
+    padding-left: 0;
+  }
+}
+/* グリッドカード */
+.cards li:hover {
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1) !important;
+}
+.cards.center > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .cards.center > div {
+    text-align: left;
+    justify-content: flex-start;
+  }
+}
+.cards.left > div {
+  text-align: left;
+}
+@media only screen and (max-width: 767px) {
+  .cards.center > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 767px) {
+  div.margin-note {
+    display: none;
+    }
+}
+/* シェアボタン */
+.bdg-dark {
+  display: inline-block;
+  margin: 0;
+  padding: .35em .65em;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  color: #FFFFFF !important;
+  background-color: #000000;
+} 
+.bdg-dark:hover {
+  background-color: #707070;
+  color: #FFFFFF;
+}
