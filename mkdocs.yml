@@ -1,0 +1,226 @@
+site_name: NTTデータ・パーソルテンプスタッフ事件　セクハラ・公益通報者報復・行政指導
+site_description: NTTデータでセクハラを受けて内部通報したところ雇止めを受けました。このような派遣制度の悪用に対して声を上げています。  # サイトの説明
+site_url: https://minnanosaiban.github.io/ntt-data/
+site_author: Mokeya
+# copyright: Copyright &copy; 2025 ★★★
+
+nav:
+  - Home:
+    - index.md
+  - ブログ:
+    - blog/index.md    
+  - 事件解説:
+    - sexual-harassment/index.md  
+    - 🔹発端はセクハラ: sexual-harassment/beginning.md
+    - 🔹被害を公益通報: sexual-harassment/whistleblowing.md     
+    - 🔹団体交渉拒否: sexual-harassment/negotiation.md
+    - 🔹被害者を雇止め: sexual-harassment/fire.md
+    - 🔹行政指導をスルー: sexual-harassment/administrative-guidance.md
+    - 🔹東労委審査申立て: sexual-harassment/petition.md
+    - 🔹審理の争点: sexual-harassment/issue.md
+    - 🔹東労委命令書公布: sexual-harassment/toroui-order.md
+  - ChatGPTで解説:
+    - chatgpt/index.md
+    - 🔹命令書をギャル語で解説: chatgpt/toroui-order.md
+  - 裁判文書原文 <i class="bi bi-arrow-up-right"></i>:
+    - https://minnanosaiban.github.io/ntt-data-doc/
+
+extra_css:
+  - css/custom.css
+  - https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
+
+extra_javascript:
+  - js/custom.js
+
+theme:
+  name: "material"
+  custom_dir: overrides # カスタマイズ用のディレクトリ
+  language: ja # サイトの言語設定
+  logo: assets/images/logo.png # サイト左上のアイコン
+  favicon: assets/images/favicon.ico
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: ダークモードに切り替えます
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: ライトモードに切り替えます
+
+  features:
+    - content.code.annotate # コードブロック内の注釈
+    - content.code.copy # コードブロックの「コピー」ボタン
+    - content.code.select # コードブロックの範囲選択機能
+    - content.footnote.tooltips # 脚注をツールチップとして表示
+    - content.tabs.link # タブ間のリンクを有効化
+    - content.tooltips # ツールチップ（補足説明のポップアップ）を有効化
+    - header.autohide # ヘッダーが隠れる
+    - navigation.tracking # ページのスクロールに応じて、見出しを更新
+    - navigation.tabs # タブ形式のナビゲーション
+    - navigation.expand # ナビゲーションメニューを最初からすべて展開
+    - navigation.top # トップへ戻るボタン
+    - navigation.indexes # index.md を含むディレクトリをナビゲーションの親として扱う
+    - navigation.expand # ナビゲーションメニューを最初からすべて展開
+    - navigation.sections # 折りたたまずに全てフラットに表示
+    - navigation.path # ？
+    - toc.follow # TOCがスクロールに応じて現在の見出しを追従
+
+    # - announce.dismiss # アナウンスバーを表示
+    # - content.action.edit # 「編集」ボタンを表示
+    # - content.action.view # 「ソースを表示」ボタン
+    # - content.code.annotate # コードブロック内の注釈
+    # - content.code.copy # コードブロックの「コピー」ボタン
+    # - content.code.select # コードブロックの範囲選択機能
+    # - content.footnote.tooltips # 脚注をツールチップとして表示
+    # - content.tabs.links # タブ間のリンクを有効化
+    # - content.tooltips # ツールチップ（補足説明のポップアップ）を有効化
+    # - header.autohide # ヘッダーが隠れる
+    # - navigation.expand # ナビゲーションメニューを最初からすべて展開
+    # - navigation.sections # 折りたたまずに全てフラットに表示
+    # - navigation.footer # ページ下部に「前へ・次へ」のナビゲーション
+    # - navigation.indexes # index.md を含むディレクトリをナビゲーションの親として扱う
+    # - navigation.instant # ページ遷移を高速化するインスタントナビゲーション
+    # - navigation.instant.prefetch # インスタントナビゲーションのプリフェッチ（事前読み込み）
+    # - navigation.instant.progress # インスタントナビゲーションの読み込み進行状況を表示
+    # - navigation.prune # ナビゲーションのメニュー項目を縮小し、必要なものだけ表示
+    # - navigation.tabs # タブ形式のナビゲーション
+    # - navigation.tabs.sticky # タブ形式のナビゲーションをスクロールしても上部に固定
+    # - navigation.top # トップへ戻るボタン
+    # - navigation.tracking  # ページのスクロールに応じて、見出しを更新
+    # - toc.follow # TOCがスクロールに応じて現在の見出しを追従
+    # - toc.integrate # TOCをナビゲーションの一部として統合
+    # - search.highlight # 検索結果のハイライト表示
+    # - search.share # 検索結果の URL をコピーするボタン
+    # - search.suggest # 検索時に、関連する検索候補を表示
+
+plugins:
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      # js_files:
+        # - js/toc.js
+      # - css_files:
+        # - css/custom.css
+        # - css/card.css
+  - blog
+  # - tags:
+    # tags_file: tags.md
+  # - blogging:
+      # locale: ja
+      # dirs:
+        # - Blogs/posts
+      # theme:
+        # name: card
+      # features:
+        # tags:
+          # index_page: tags/
+          # insert: top
+  # - search # 追加の際は「features」も設定する
+  # - callouts # admonitionと同様の機能
+  # - glightbox: # 画像・動画のポップアップ表示
+    # width: 80%
+  # - heti
+  # - include_dir_to_nav:
+  #     sort_file: true
+  #     sort_directory: true
+
+# extra:
+  # not_in_nav:  # ナビゲーションから除外
+    # - hidden_page.md
+    # - secret_folder/*
+  # status:  # フロントマターに記載すると「New!」と表示
+    # new: "New!"
+
+# hooks: # マクロのように定型処理を自動化
+  # - overrides/hooks/shortcodes.py
+  # - overrides/hooks/translations.py
+
+validation: # ナビゲーションやリンクが切れることが気になるときに設定
+  nav:
+    omitted_files: info
+    not_found: warn
+    absolute_links: info
+  links:
+    not_found: warn
+    absolute_links: warn
+    unrecognized_links: warn
+
+markdown_extensions:
+  - meta # フロントマターを使えるようにする
+  - md_in_html # マークダウンとhtmlを一緒に使う
+  - attr_list # マークダウンでもhtml属性を設定することができる
+  - nl2br # スペース2つ付けなくても改行
+  - sane_lists # リストの誤動作を防ぐ
+  - toc: # tocを自動的に生成
+      toc_depth: 3 # tocの深さ
+  - pymdownx.emoji: # 絵文字を使う
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.smartsymbols # ダブルクォーテーション等の表示をキレイにする
+  - pymdownx.caret # キャレット記号（^）によるsupタグ（上付き文字）
+  - pymdownx.details # detailsタグによる折り畳み処理
+  - pymdownx.mark # markタグ（ハイライト）
+  - pymdownx.betterem: # emタグやstrongタグ（強調）を区別する
+
+  # - meta # フロントマターを使えるようにする
+  # - md_in_html # マークダウンとhtmlを一緒に使う
+  # - attr_list # マークダウンでもhtml属性を設定することができる
+  # - nl2br # スペース2つ付けなくても改行
+  # - sane_lists # リストの誤動作を防ぐ
+  # - abbr # 略語の定義
+  # - admonition # admonitionカード
+  # - def_list # 定義語のリスト
+  # - footnotes # 文末脚注
+  # - toc: # tocを自動的に生成
+    # permalink: true # h1やh2にパーマリンクを表示
+    # toc_depth: 3 # tocの深さ
+  # - codehilite: # コードハイライト
+      # guess_lang: false
+  # - pymdownx.emoji: # 絵文字を使う
+      # emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      # emoji_index: !!python/name:material.extensions.emoji.twemoji
+  # - pymdownx.smartsymbols # ダブルクォーテーション等の表示をキレイにする
+  # - pymdownx.caret # キャレット記号（^）によるsupタグ（上付き文字）
+  # - pymdownx.details # detailsタグによる折り畳み処理
+  # - pymdownx.mark # markタグ（ハイライト）
+  # - pymdownx.betterem: # emタグやstrongタグ（強調）を区別する
+  # - pymdownx.tabbed: # タブの設定
+      # alternate_style: true
+      # combine_header_slug: true
+      # slugify: !!python/object/apply:pymdownx.slugs.slugify
+        # kwds:
+          # case: lower
+  # - pymdownx.tasklist: # タスクリストの設定
+      # custom_checkbox: true
+  # - pymdownx.tilde # チルド記号（~）による取り消し線 
+  # - pymdownx.critic # 校正等のコメント 
+  # - pymdownx.magiclink: # リンクの記述を簡易にする
+      # normalize_issue_symbols: true
+      # repo_url_shorthand: true
+      # user: squidfunk
+      # repo: mkdocs-material
+    # - pymdownx.snippets:  # 全てのページの末尾に追加する
+      # auto_append:
+        # - includes/mkdocs.md
+  # - pymdownx.arithmatex: # 数式
+    # generic: true # 数式を汎用的に処理
+  # - pymdownx.highlight: # コードブロックのハイライト
+      # anchor_linenums: true
+      # line_spans: __span
+      # pygments_lang_class: true
+  # - pymdownx.inlinehilite # インラインコードハイライト
+  # - pymdownx.superfences: # 複雑なコードブロックの処理。
+      # custom_fences:
+        # - name: mermaid
+          # class: mermaid
+          # format: !!python/name:pymdownx.superfences.fence_code_format
